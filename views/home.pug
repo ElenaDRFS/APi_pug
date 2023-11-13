@@ -1,0 +1,10 @@
+doctype html
+html
+   head
+      title = "form"
+   body
+      h3  Welcome to the searching page, here you can look for the film that you want. After submiting it will be showed the title, the author, the description and the image. 
+      form(action='/film' method='POST') 
+         input#text(type="text", name="title")
+         input(type="submit", value="Show me the film")
+

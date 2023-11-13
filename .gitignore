@@ -1,3 +1,7 @@
+# codificamos el .env para que no se vea
+.env  
+
+
 # Logs
 logs
 *.log
